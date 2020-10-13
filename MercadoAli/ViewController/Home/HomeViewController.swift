@@ -7,23 +7,31 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UISearchBarDelegate {
 
+    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var mainLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        searchBar.delegate = self
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let listVC = storyboard.instantiateViewController(withIdentifier: "ProductList") as! ProductListViewController
+        
+        let searchBarText = searchBar.text
+        listVC.searchedQuery = searchBarText
+        navigationController?.pushViewController(listVC, animated: true)
     }
-    */
-
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.text = ""
+    }
+ 
 }

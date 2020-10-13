@@ -1,0 +1,6 @@
+framework module Pods_MercadoAli_MercadoAliUITests {
+  umbrella header "Pods-MercadoAli-MercadoAliUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

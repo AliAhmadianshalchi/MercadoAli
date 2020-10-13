@@ -3,16 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		979C847E190F32D815239517 /* Pods_MercadoAliTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77B4AAC881CE43F0C45B2C2 /* Pods_MercadoAliTests.framework */; };
 		A01DF5132533D0690058A910 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01DF5122533D0690058A910 /* HomeViewController.swift */; };
-		A01DF5182533D08F0058A910 /* ProductListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01DF5172533D08F0058A910 /* ProductListTableViewController.swift */; };
 		A01DF5202533D14B0058A910 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01DF51F2533D14B0058A910 /* ProductDetailsViewController.swift */; };
 		A01DF5292533D1DC0058A910 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01DF5282533D1DC0058A910 /* Product.swift */; };
-		A01DF5312533D1EA0058A910 /* Shipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01DF5302533D1EA0058A910 /* Shipping.swift */; };
-		A01DF5362533D2130058A910 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01DF5352533D2130058A910 /* Manager.swift */; };
+		A02E995E2533E2A600D3FF6E /* ProductsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02E995D2533E2A600D3FF6E /* ProductsApi.swift */; };
+		A04809F72534D2420041567C /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04809F62534D2420041567C /* Double+Extension.swift */; };
+		A0480A66253521E50041567C /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0480A65253521E50041567C /* ProductListViewController.swift */; };
 		A0C824B525333AF600ED331A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C824B425333AF600ED331A /* AppDelegate.swift */; };
 		A0C824B725333AF600ED331A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C824B625333AF600ED331A /* SceneDelegate.swift */; };
 		A0C824BC25333AF600ED331A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C824BA25333AF600ED331A /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 		A0C824CC25333AF800ED331A /* MercadoAliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C824CB25333AF800ED331A /* MercadoAliTests.swift */; };
 		A0C824D725333AF800ED331A /* MercadoAliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C824D625333AF800ED331A /* MercadoAliUITests.swift */; };
 		A0C824F72533989900ED331A /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C824F62533989900ED331A /* ProductTableViewCell.swift */; };
+		E7145AB17B9E56C4F2B40191 /* Pods_MercadoAli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0CF7723459372D1F3458E27 /* Pods_MercadoAli.framework */; };
+		E9C58B807C45378FC56E6C2D /* Pods_MercadoAli_MercadoAliUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9789A58CD55A6DF9AE97F417 /* Pods_MercadoAli_MercadoAliUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19EE5092DFB5B00300A9AFF4 /* Pods-MercadoAli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoAli.release.xcconfig"; path = "Target Support Files/Pods-MercadoAli/Pods-MercadoAli.release.xcconfig"; sourceTree = "<group>"; };
+		1FFFE8A4ACD7D6D9B7F33569 /* Pods-MercadoAli-MercadoAliUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoAli-MercadoAliUITests.debug.xcconfig"; path = "Target Support Files/Pods-MercadoAli-MercadoAliUITests/Pods-MercadoAli-MercadoAliUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		277F058987BBF1C66EC28EC4 /* Pods-MercadoAli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoAli.debug.xcconfig"; path = "Target Support Files/Pods-MercadoAli/Pods-MercadoAli.debug.xcconfig"; sourceTree = "<group>"; };
+		6FF735C664DA4BAF1C91FB3E /* Pods-MercadoAliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoAliTests.release.xcconfig"; path = "Target Support Files/Pods-MercadoAliTests/Pods-MercadoAliTests.release.xcconfig"; sourceTree = "<group>"; };
+		9789A58CD55A6DF9AE97F417 /* Pods_MercadoAli_MercadoAliUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadoAli_MercadoAliUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01DF5122533D0690058A910 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A01DF5172533D08F0058A910 /* ProductListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewController.swift; sourceTree = "<group>"; };
 		A01DF51F2533D14B0058A910 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		A01DF5282533D1DC0058A910 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		A01DF5302533D1EA0058A910 /* Shipping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shipping.swift; sourceTree = "<group>"; };
-		A01DF5352533D2130058A910 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		A02E995D2533E2A600D3FF6E /* ProductsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsApi.swift; sourceTree = "<group>"; };
+		A04809F62534D2420041567C /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		A0480A65253521E50041567C /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		A0C824B125333AF600ED331A /* MercadoAli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MercadoAli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C824B425333AF600ED331A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C824B625333AF600ED331A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 		A0C824D625333AF800ED331A /* MercadoAliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoAliUITests.swift; sourceTree = "<group>"; };
 		A0C824D825333AF800ED331A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0C824F62533989900ED331A /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		B93A59AE064BA334C69F3FBB /* Pods-MercadoAliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoAliTests.debug.xcconfig"; path = "Target Support Files/Pods-MercadoAliTests/Pods-MercadoAliTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0CF7723459372D1F3458E27 /* Pods_MercadoAli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadoAli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77B4AAC881CE43F0C45B2C2 /* Pods_MercadoAliTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MercadoAliTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E2EDB0E339DBC7FDB17848 /* Pods-MercadoAli-MercadoAliUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MercadoAli-MercadoAliUITests.release.xcconfig"; path = "Target Support Files/Pods-MercadoAli-MercadoAliUITests/Pods-MercadoAli-MercadoAliUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7145AB17B9E56C4F2B40191 /* Pods_MercadoAli.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979C847E190F32D815239517 /* Pods_MercadoAliTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +96,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C58B807C45378FC56E6C2D /* Pods_MercadoAli_MercadoAliUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45DD6EA14E9441A9DC766382 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				277F058987BBF1C66EC28EC4 /* Pods-MercadoAli.debug.xcconfig */,
+				19EE5092DFB5B00300A9AFF4 /* Pods-MercadoAli.release.xcconfig */,
+				1FFFE8A4ACD7D6D9B7F33569 /* Pods-MercadoAli-MercadoAliUITests.debug.xcconfig */,
+				E4E2EDB0E339DBC7FDB17848 /* Pods-MercadoAli-MercadoAliUITests.release.xcconfig */,
+				B93A59AE064BA334C69F3FBB /* Pods-MercadoAliTests.debug.xcconfig */,
+				6FF735C664DA4BAF1C91FB3E /* Pods-MercadoAliTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A01DF50E25339FBE0058A910 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +135,8 @@
 		A01DF5252533D15C0058A910 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				A01DF5172533D08F0058A910 /* ProductListTableViewController.swift */,
+				A0C824F62533989900ED331A /* ProductTableViewCell.swift */,
+				A0480A65253521E50041567C /* ProductListViewController.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -124,9 +153,17 @@
 			isa = PBXGroup;
 			children = (
 				A01DF5282533D1DC0058A910 /* Product.swift */,
-				A01DF5302533D1EA0058A910 /* Shipping.swift */,
+				A02E995D2533E2A600D3FF6E /* ProductsApi.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A04809FB2534D24A0041567C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A04809F62534D2420041567C /* Double+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		A0C824A825333AF600ED331A = {
@@ -136,6 +173,8 @@
 				A0C824CA25333AF800ED331A /* MercadoAliTests */,
 				A0C824D525333AF800ED331A /* MercadoAliUITests */,
 				A0C824B225333AF600ED331A /* Products */,
+				45DD6EA14E9441A9DC766382 /* Pods */,
+				B51509E3BB9FA375EA4C0C3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,12 +191,11 @@
 		A0C824B325333AF600ED331A /* MercadoAli */ = {
 			isa = PBXGroup;
 			children = (
+				A04809FB2534D24A0041567C /* Extensions */,
 				A0C824ED25338F6A00ED331A /* ViewController */,
-				A0C824EC25338F5B00ED331A /* Views */,
-				A0C824EB25338F5400ED331A /* Manager */,
+				A01DF5272533D1BC0058A910 /* Model */,
 				A0C824E725333B6900ED331A /* StoryBoards */,
 				A01DF50E25339FBE0058A910 /* Resources */,
-				A01DF5272533D1BC0058A910 /* Model */,
 				A0C824B425333AF600ED331A /* AppDelegate.swift */,
 				A0C824B625333AF600ED331A /* SceneDelegate.swift */,
 				A0C824C225333AF700ED331A /* Info.plist */,
@@ -192,22 +230,6 @@
 			path = StoryBoards;
 			sourceTree = "<group>";
 		};
-		A0C824EB25338F5400ED331A /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				A01DF5352533D2130058A910 /* Manager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		A0C824EC25338F5B00ED331A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A0C824F62533989900ED331A /* ProductTableViewCell.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		A0C824ED25338F6A00ED331A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +240,16 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		B51509E3BB9FA375EA4C0C3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0CF7723459372D1F3458E27 /* Pods_MercadoAli.framework */,
+				9789A58CD55A6DF9AE97F417 /* Pods_MercadoAli_MercadoAliUITests.framework */,
+				C77B4AAC881CE43F0C45B2C2 /* Pods_MercadoAliTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C824DB25333AF800ED331A /* Build configuration list for PBXNativeTarget "MercadoAli" */;
 			buildPhases = (
+				F7FB2F51B08000A7323F48CE /* [CP] Check Pods Manifest.lock */,
 				A0C824AD25333AF600ED331A /* Sources */,
 				A0C824AE25333AF600ED331A /* Frameworks */,
 				A0C824AF25333AF600ED331A /* Resources */,
+				1A108C72FAC4FA81A3EDDCAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C824DE25333AF800ED331A /* Build configuration list for PBXNativeTarget "MercadoAliTests" */;
 			buildPhases = (
+				725A7B6B2E7C3415ED408D94 /* [CP] Check Pods Manifest.lock */,
 				A0C824C325333AF800ED331A /* Sources */,
 				A0C824C425333AF800ED331A /* Frameworks */,
 				A0C824C525333AF800ED331A /* Resources */,
@@ -260,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0C824E125333AF800ED331A /* Build configuration list for PBXNativeTarget "MercadoAliUITests" */;
 			buildPhases = (
+				8A3CC770B54FCF8F56513838 /* [CP] Check Pods Manifest.lock */,
 				A0C824CE25333AF800ED331A /* Sources */,
 				A0C824CF25333AF800ED331A /* Frameworks */,
 				A0C824D025333AF800ED331A /* Resources */,
+				5D027550448E0501D6A4772C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -343,19 +380,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A108C72FAC4FA81A3EDDCAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoAli/Pods-MercadoAli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoAli/Pods-MercadoAli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MercadoAli/Pods-MercadoAli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D027550448E0501D6A4772C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoAli-MercadoAliUITests/Pods-MercadoAli-MercadoAliUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MercadoAli-MercadoAliUITests/Pods-MercadoAli-MercadoAliUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MercadoAli-MercadoAliUITests/Pods-MercadoAli-MercadoAliUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725A7B6B2E7C3415ED408D94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercadoAliTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3CC770B54FCF8F56513838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercadoAli-MercadoAliUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FB2F51B08000A7323F48CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MercadoAli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0C824AD25333AF600ED331A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02E995E2533E2A600D3FF6E /* ProductsApi.swift in Sources */,
 				A01DF5132533D0690058A910 /* HomeViewController.swift in Sources */,
 				A0C824F72533989900ED331A /* ProductTableViewCell.swift in Sources */,
 				A0C824B525333AF600ED331A /* AppDelegate.swift in Sources */,
-				A01DF5312533D1EA0058A910 /* Shipping.swift in Sources */,
 				A01DF5202533D14B0058A910 /* ProductDetailsViewController.swift in Sources */,
+				A04809F72534D2420041567C /* Double+Extension.swift in Sources */,
 				A0C824B725333AF600ED331A /* SceneDelegate.swift in Sources */,
-				A01DF5182533D08F0058A910 /* ProductListTableViewController.swift in Sources */,
-				A01DF5362533D2130058A910 /* Manager.swift in Sources */,
+				A0480A66253521E50041567C /* ProductListViewController.swift in Sources */,
 				A01DF5292533D1DC0058A910 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,6 +669,7 @@
 		};
 		A0C824DC25333AF800ED331A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277F058987BBF1C66EC28EC4 /* Pods-MercadoAli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -548,6 +689,7 @@
 		};
 		A0C824DD25333AF800ED331A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EE5092DFB5B00300A9AFF4 /* Pods-MercadoAli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -567,6 +709,7 @@
 		};
 		A0C824DF25333AF800ED331A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93A59AE064BA334C69F3FBB /* Pods-MercadoAliTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -589,6 +732,7 @@
 		};
 		A0C824E025333AF800ED331A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF735C664DA4BAF1C91FB3E /* Pods-MercadoAliTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -611,6 +755,7 @@
 		};
 		A0C824E225333AF800ED331A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFFE8A4ACD7D6D9B7F33569 /* Pods-MercadoAli-MercadoAliUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -631,6 +776,7 @@
 		};
 		A0C824E325333AF800ED331A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E2EDB0E339DBC7FDB17848 /* Pods-MercadoAli-MercadoAliUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

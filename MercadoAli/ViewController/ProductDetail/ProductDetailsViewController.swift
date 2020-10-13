@@ -6,24 +6,31 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ProductDetailsViewController: UIViewController {
 
+    @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var productName: UILabel!
+    @IBOutlet weak var productCondition: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    var product: Response.Product?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupCell()
+        
+    }
+    
+    func setupCell() {
+        self.productName.text = product?.title
+        self.priceLabel.text = "$\(String(describing: product?.price))"
+        self.productCondition.text = product?.condition?.capitalized == "New" ? "Nuevo" : "Usado"
+        self.productImage.sd_setImage(with: URL(string: product?.thumbnail ?? ""), placeholderImage: UIImage(named: "default"))
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
