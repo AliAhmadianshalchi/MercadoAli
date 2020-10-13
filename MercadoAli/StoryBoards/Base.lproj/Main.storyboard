@@ -76,7 +76,7 @@
             </objects>
             <point key="canvasLocation" x="-1555.072463768116" y="109.82142857142857"/>
         </scene>
-        <!--Product List View Controller-->
+        <!--Lista de Productos-->
         <scene sceneID="U83-NU-brq">
             <objects>
                 <viewController storyboardIdentifier="ProductList" id="YmG-S6-TcI" customClass="ProductListViewController" customModule="MercadoAli" customModuleProvider="target" sceneMemberID="viewController">
@@ -161,7 +161,7 @@
                             <constraint firstItem="5dd-4y-VnN" firstAttribute="bottom" secondItem="Y3E-ta-hb6" secondAttribute="bottom" id="jng-M8-R7M"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Sn3-az-tRD"/>
+                    <navigationItem key="navigationItem" title="Lista de Productos" id="Sn3-az-tRD"/>
                     <connections>
                         <outlet property="productsTableView" destination="Y3E-ta-hb6" id="r93-T1-9hq"/>
                         <segue destination="H9x-eK-KUg" kind="show" id="wRU-Hw-fAt"/>

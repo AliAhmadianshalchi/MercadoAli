@@ -26,7 +26,7 @@ class ProductDetailsViewController: UIViewController {
     
     func setupCell() {
         self.productName.text = product?.title
-        self.priceLabel.text = "$\(String(describing: product?.price))"
+        self.priceLabel.text = "$\(String(describing: product?.price?.formattedAmount() ?? ""))"
         self.productCondition.text = product?.condition?.capitalized == "New" ? "Nuevo" : "Usado"
         self.productImage.sd_setImage(with: URL(string: product?.thumbnail ?? ""), placeholderImage: UIImage(named: "default"))
     }

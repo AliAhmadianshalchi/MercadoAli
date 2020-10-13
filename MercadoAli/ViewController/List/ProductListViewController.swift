@@ -41,7 +41,7 @@ class ProductListViewController: UIViewController , UITableViewDataSource , UITa
         cell?.productImage.sd_setImage(with: URL(string: product.thumbnail ?? ""), placeholderImage: UIImage(named: "default"))
         cell?.productNameLabel.text = product.title
         cell?.productConditionLabel.text = product.condition
-        cell?.productPriceLabel.text = String("$\(product.price)")
+        cell?.productPriceLabel.text = String("$\(product.price?.formattedAmount() ?? "")")
         
         
         
